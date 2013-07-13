@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Site Title</title>
+
+    <meta name="description" content="Site Description">
+
+    <meta name="author" content="Author">
+
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var topaffix = $('.affix-top').position();
+            $(window).scroll(function(){
+                if($(window).scrollTop() >= topaffix.top - 70) {
+                    $('.affix-top').addClass('sticky');
+                } else {
+                    $('.affix-top').removeClass('sticky');
+                }
+            });
+        });
+    </script>
+
+</head>
+
+<body data-spy="scroll">
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="#top">Site Name</a>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li><a href="/index.html">Introduction</a></li>
+                    <li><a href="/section1.html">Section 1</a></li>
+                    <li><a href="/section2.html">Section 2</a></li>
+                    <li><a href="/section3.html">Section 3</a></li>
+                    <li><a href="/section4.html">Section 4</a></li>
+                    <li><a href="/section5.html">Section 5</a></li>
+                    <li><a href="/section6.html">Section 6</a></li>
+                    <li><a href="/conclusion.html">Conclusion</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+</div>
+<header>
+    <div class="container">
+        <div class="hero-unit" id="top" markdown="1">
+            <img id="seal" alt="Seal" src="assets/img/seal.png">
+            <h1>Site Name</h1>
+            <p>Curabitur laoreet sapien ligula, in fermentum mauris lobortis eu.</p>
+        </div>
+    </div></header>
+<div class="container">
+
+<div class="row">
+<div class="span3">
+    <ul class="nav nav-tabs nav-stacked span3 affix-top">
+        <li class="dropdown-submenu"><a href="#section-1">SubSection 1</a></li>
+        <li class="dropdown-submenu"><a href="#section-2">SubSection 2</a></li>
+        <li class="dropdown-submenu"><a href="#section-3">SubSection 3</li>
+    </ul>
+</div>
+<div class="span9"><h2 id="introduction">Section 6</h2>
+
+<p class="quote"><em>"Donec ac urna felis. Proin quis fringilla odio. Duis vel malesuada felis. Etiam in purus ultrices, posuere lorem eu, vestibulum tellus."</em><br>– Quote Author</p>
+<div class="well left">
+    <h3>Nulla pulvinar leo id sem porta, at facilisis mi accumsan</h3>
+    <p>Donec tempus pellentesque augue, id ornare ante bibendum a. Praesent id scelerisque metus, nec tincidunt velit. Nullam est est, vulputate vitae sagittis id, faucibus id magna.</p>
+</div>
+<p>Pellentesque rutrum non massa a suscipit. Nulla lobortis tincidunt rhoncus. Mauris lobortis ligula eu mi semper, nec pharetra nisl tempus.</p>
+
+<p>Proin nec libero ultricies, aliquet ante dictum, semper mauris. Vestibulum diam lacus,<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> accumsan ut lacus a, convallis egestas sapien.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> Mauris nulla lectus,<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> feugiat pharetra diam non, venenatis cursus mauris. Duis eu lectus ac lorem elementum facilisis. Vestibulum nibh orci, mollis at arcu id, pellentesque tincidunt libero. Proin vitae ipsum lectus. Aliquam augue turpis, venenatis non blandit semper, bibendum non leo. Phasellus pellentesque dui et dictum sodales. Sed tempus id purus iaculis semper. Aenean risus sem, rhoncus nec euismod quis, tempus eget lacus. Suspendisse et urna vitae purus porta tincidunt ut in massa. Nam iaculis placerat libero, at vestibulum nisi adipiscing nec. Nam lorem quam, condimentum eu ipsum et, porta molestie risus.</p>
+
+<p>Suspendisse hendrerit eros enim, convallis semper mauris eleifend quis. Duis interdum pharetra arcu, vel fermentum sem dignissim at. Curabitur consectetur sed ligula quis pharetra. Cras malesuada tristique quam, quis condimentum diam iaculis in. Sed ut neque quis dolor congue semper sit amet quis velit. Phasellus tortor est, auctor sit amet consequat et, rhoncus ac sem. Nulla accumsan, metus nec adipiscing pulvinar, mi massa convallis sapien, vitae euismod erat diam id orci.</p>
+
+<p>Donec velit erat, adipiscing vulputate venenatis vitae, ornare vel sem. Pellentesque ut ultrices lorem. Sed eleifend, arcu non feugiat viverra, augue ante scelerisque est, et cursus turpis turpis a risus. Vestibulum eu adipiscing nisi, quis aliquam justo. Ut et luctus sem, ut semper nunc. Phasellus venenatis nulla non tempor blandit. Nulla auctor quam sed lorem venenatis,<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup> nec semper velit dictum. Nullam sed pharetra sapien. Cras fermentum molestie congue.</p>
+
+<div class="well right">
+    <h3>Praesent augue purus, viverra in ultrices et, vulputate a tellus.</h3>
+
+    <ul>
+        <li>Etiam a mattis dolor. Nam lacinia hendrerit neque.</li>
+
+        <li>Donec congue justo quis lorem laoreet egestas.</li>
+
+        <li>Nulla cursus eros nec tortor interdum imperdiet. Suspendisse potenti.</li>
+
+        <li>Vestibulum euismod nunc felis, eu molestie nisi tempus et. Aliquam vestibulum at massa sit amet pellentesque.</li>
+    </ul>
+</div>
+<h3 id="strategy_objectives">Mauris non nulla enim</h3>
+
+<p>Nulla vel dictum massa, at sollicitudin lacus:</p>
+
+<ul>
+    <li>
+        <p><strong>Fusce sollicitudin, diam quis accumsan tempus, mi turpis euismod est, quis molestie enim felis et lectus. Curabitur non mollis metus. Vestibulum at metus sed dolor condimentum suscipit a at ante. In nulla leo, accumsan id ullamcorper sed, gravida vel risus. Nunc et lacinia lacus.</strong> <br><br>Donec sapien lorem, fringilla et sagittis dignissim, convallis feugiat lectus. Quisque ultrices adipiscing purus, eget luctus nulla iaculis ut. Aliquam viverra nisl quis arcu semper volutpat.</p>
+    </li>
+
+    <li>
+        <p><strong>In vel gravida massa. In nec dignissim ante, vitae molestie dolor. Vivamus ut mattis nulla, nec mattis nisi. Vivamus eu dapibus nibh.</strong> <br><br>Aliquam pulvinar quis arcu ac semper. Vestibulum magna mauris, porta a consectetur ac, aliquam in mauris. In et neque metus.</p>
+    </li>
+
+    <li>
+        <p><strong>Aliquam id metus nec nisl tempor aliquam. Aliquam erat volutpat. Maecenas volutpat lectus sit amet neque suscipit, quis cursus purus tincidunt.</strong><br><br>Donec tincidunt purus vitae massa interdum tempor. Morbi in lectus lobortis, rhoncus lectus in, gravida elit. Nam consequat purus ut mollis vehicula.</p>
+    </li>
+</ul>
+
+<h3>In porttitor, risus non facilisis lacinia</h3>
+
+<p>Massa lacus commodo leo, vitae aliquam est velit vel mi. Sed mattis mattis lacinia. Sed fringilla, quam vitae egestas vehicula, nunc arcu vestibulum nulla, mollis consequat nisi massa vel neque. Nam ultrices lectus quis diam laoreet mattis. Praesent lobortis, mi a consequat sollicitudin, turpis mi fermentum odio, vitae blandit arcu odio id orci. Ut et odio sed ante tempor aliquet at nec elit.<sup id="fnref:5"><a href="#fn:5" rel="footnote">5</a></sup></p>
+
+<p>Cras ut nulla sed nibh sagittis sodales. Nulla non augue condimentum turpis lobortis fermentum eget commodo augue. In ultrices eros neque, ut suscipit est semper nec. Pellentesque sodales condimentum arcu, interdum interdum lectus pellentesque in. Pellentesque vitae molestie est. Aenean vel erat non libero dictum dapibus eget id dolor. Nulla at ligula quis arcu semper malesuada eget id lorem. Quisque rutrum urna in nibh adipiscing varius. Etiam risus nibh, porttitor non nisi quis, tristique porta magna. Vestibulum sit amet congue sapien. Nullam eu ante eget tellus mollis adipiscing in ut odio. Praesent ac neque et urna dapibus tempor. Curabitur ut neque id tortor rhoncus porttitor ut posuere est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean diam lectus, vulputate vel ligula id, vehicula aliquet mi. Sed convallis quam sit amet enim blandit venenatis.</p>
+
+
+<h4 id="informationcentric">Sea eu magna tantas</h4>
+
+<p>Sed sale debet audiam eu? Ut invenire adipiscing vis, duo at maiorum posidonium! Timeam accusata sed ei, quando postulant definitiones no eum! Aperiam persecuti sit no, case aliquam conclusionemque mei ad? Euismod propriae qui an, ei wisi elaboraret eum, id duo persius apeirian!</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum obcaecati reprehenderit debitis laborum animi at repellendus deserunt recusandae libero in ad magni eum cupiditate nihil error. Sint tenetur illum perspiciatis quam veritatis nemo nulla voluptatem incidunt assumenda eveniet. Dolorem ipsam magnam perferendis aut vitae sequi voluptatibus quisquam aliquid. Reiciendis ab minus amet dicta asperiores maxime doloremque vero facere nesciunt consequatur magni voluptatem ratione eveniet hic excepturi error esse facilis laudantium consectetur rerum tenetur porro corporis soluta! Explicabo ea dicta quis amet eius cum rerum? Ullam autem laudantium eligendi nemo suscipit aliquid iste unde quod a ratione alias deleniti amet quisquam!</p>
+
+<h4 id="shared_platform">Lorem ipsum dolor sit.</h4>
+
+<p>Magnam quod molestiae repellendus at placeat reprehenderit dolores nam pariatur voluptas praesentium dolor nemo alias corporis quisquam ratione impedit harum? Iure ea iste fugiat voluptatem eos et in laborum nisi qui reprehenderit omnis ipsa numquam aspernatur esse sint consequuntur vitae quibusdam. Tempore temporibus sint excepturi minima est ipsa quaerat iste beatae consectetur sapiente reiciendis voluptas possimus. Voluptate reiciendis tempore impedit sunt doloremque maiores ex incidunt ipsum natus laborum necessitatibus ratione aspernatur quasi quia delectus blanditiis a. Iusto reiciendis nulla accusamus aliquid cupiditate sapiente quis eos non consequatur at cumque explicabo facilis soluta!</p>
+
+<h4 id="customercentric">Saepe autem</h4>
+
+<p>Atque illo cumque quae sapiente necessitatibus voluptatibus quaerat error provident aut consectetur neque ipsam repudiandae veritatis quibusdam commodi consequatur obcaecati pariatur aspernatur doloremque vitae possimus non deserunt ea explicabo molestiae tempore ab placeat incidunt repellat temporibus distinctio nisi nam fuga quia consequuntur ducimus harum nesciunt ipsa eaque id cupiditate ad iste quidem velit! Minus consectetur laboriosam dignissimos vel accusamus a molestias velit optio sequi suscipit ipsum esse itaque magni ipsam.</p>
+
+<p>Ut sequi voluptate nihil earum hic repellendus sunt esse atque quam ad blanditiis in assumenda cumque incidunt qui harum cupiditate dolorem autem accusantium distinctio dolor minima doloribus illo saepe alias ullam impedit eveniet officia at laboriosam similique architecto aut optio eligendi labore porro iure aliquid tempora perspiciatis libero! Enim tempore reiciendis omnis.</p>
+
+<h2 id="section-1">Sub Section 1</h2>
+
+<p>Earum aut quas facilis expedita iure perferendis eius eveniet veniam non quo ducimus dolorem mollitia possimus exercitationem atque consequatur magnam? Deserunt voluptatem quo ad modi adipisci atque alias accusantium ea facilis commodi. Eos voluptatum iste nemo provident iure nesciunt architecto maiores suscipit minima commodi consequatur ipsum recusandae porro est sequi nobis illum in qui! Rem adipisci consectetur animi vitae incidunt suscipit quidem tenetur dicta voluptates ex qui ipsum quia illo voluptatibus rerum totam delectus nesciunt esse at optio repellendus officiis officia quasi nemo fuga. Velit doloribus reiciendis eveniet a tempora corporis esse.</p>
+<div class="well right">
+    <h3>Lorem ipsum dolor sit amet.</h3>
+
+    <p>Consectetur adipisicing elit. Dicta doloremque voluptatum non necessitatibus molestias officia error nemo repellat! Fugiat accusamus blanditiis sequi rem perferendis ex ducimus ab explicabo adipisci optio voluptates nemo deserunt molestiae saepe reiciendis eligendi ut nobis aliquid. Eveniet quia suscipit dolorem. Quibusdam enim maxime aliquam unde id itaque in harum similique aperiam odit ipsam repellat ut illo iste architecto impedit quisquam commodi nisi voluptate possimus fugit voluptas quod expedita dignissimos ad vel eveniet libero. Natus odit provident.</p>
+</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non laudantium maxime veritatis voluptate animi eveniet perferendis porro excepturi rem tempore unde molestiae quo qui repudiandae facilis rerum beatae. Quia eum.</p>
+<p>Harum dolore id esse perspiciatis laboriosam dolorem animi earum labore sint vel ipsum est error vitae iusto consequatur pariatur repellat enim doloremque eaque nisi! Ipsa beatae eum ducimus voluptate consectetur.</p>
+<p>Sint magnam assumenda ex doloremque esse mollitia minima vitae libero velit facilis placeat fugiat voluptatibus quis facere quisquam animi deleniti. Iusto id in perspiciatis unde minus delectus pariatur eligendi impedit.</p>
+
+<h3 id="section-1-article-1">I. Article</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa et repellat asperiores ut cupiditate numquam quis odit a non est molestias fuga rerum illum iusto sint nostrum illo! Quod recusandae et sequi suscipit tenetur atque placeat distinctio nihil commodi dignissimos natus provident libero accusantium debitis officia. Veniam vitae culpa excepturi enim nisi reiciendis provident sunt repudiandae nulla laudantium et qui alias dolores reprehenderit tenetur voluptas impedit rerum earum a consequuntur expedita dolore fugiat laboriosam obcaecati sapiente ipsa fuga omnis facere deleniti eveniet numquam facilis odit minima. Voluptas aut in laudantium maiores fuga accusamus provident. Aliquid omnis autem culpa soluta dolore eaque voluptatum nostrum sit debitis nobis fugit porro esse modi eum dolor fuga earum ratione commodi odit id incidunt doloribus?</p>
+<div class="row">
+    <div class="span8">
+        <table class="table table-striped table-bordered action-items">
+            <thead>
+            <tr>
+                <th rowspan="2">#</th>
+                <th rowspan="2">Owner(s)</th>
+                <th rowspan="2">Milestone Actions</th>
+                <th colspan="4">Timeframe (months)</th>
+            </tr>
+            <tr class="due-within">
+                <th>1</th>
+                <th>3</th>
+                <th>6</th>
+                <th>12</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr id="milestone-1-1">
+                <td class="action-id">1.1</td>
+                <td class="owner">OMB</td>
+                <td class="action">Issue government-wide open data, content, and web API policy and identify standards and best practices for improved interoperability.</td>
+                <td class="due-1">
+                </td><td class="due-3">
+            </td><td class="due-6 checked">•</td>
+                <td class="due-12">
+                </td></tr>
+            <tr>
+                <td class="action-id">1.2</td>
+                <td class="owner">Agencies</td>
+                <td class="action">Ensure all new IT systems follow the open data, content, and web API policy and operationalize agency.gov/developer pages. *[Within 6 months of release of open data policy – see [milestone 1.1](#milestone-1-1)]*</td>
+                <td class="due-1">
+                </td><td class="due-3">
+            </td><td class="due-6">
+            </td><td class="due-12 checked">•</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<h3 id="section-1-article-2">II. Article</h3>
+
+<p>Cumque distinctio possimus earum quam quo at nisi sequi tempora porro adipisci facilis quidem voluptatibus officiis veniam nostrum harum voluptatum quaerat? Nisi est distinctio ratione quas aliquam optio? Vero ex quibusdam provident beatae cumque unde omnis ut reiciendis dolor adipisci impedit magni facilis nihil nesciunt eius debitis dicta nemo. Vel ipsa cum dolor molestias eum hic fuga deserunt quo nemo accusamus aspernatur laudantium officia rerum vero soluta dicta tenetur doloremque maxime architecto dolore! Ducimus unde expedita omnis eius ipsum saepe debitis delectus possimus ipsam tempora voluptas deleniti beatae labore obcaecati accusamus? Explicabo minus corrupti dolor alias repellat eos officiis totam nulla maxime neque voluptatibus dolores facilis delectus excepturi iste magnam quam! Ea maiores non necessitatibus omnis quibusdam aliquam minus magnam facere amet.</p>
+
+<ol>
+    <li class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione aut possimus natus veniam unde quibusdam excepturi aliquid maxime quam nam quis id facere fuga. Commodi quasi nulla saepe corporis autem.</li>
+    <li class="item">Voluptatem pariatur modi dolorum sunt perspiciatis obcaecati facere quo minus expedita quod nam distinctio ipsum. Hic aspernatur ipsa consequatur facere explicabo expedita deleniti minus repudiandae iure dignissimos ipsum eius vitae!</li>
+    <li class="item">Nihil amet quo cupiditate inventore ad molestiae quisquam perferendis debitis sit sequi at non ullam deserunt autem distinctio? Modi possimus asperiores pariatur cupiditate quos delectus molestias commodi reiciendis dolorem ab.</li>
+    <li class="item">Fugiat voluptatum dolore architecto aliquid expedita asperiores provident illum esse tempore iste dolorem quia odit qui blanditiis fugit accusantium suscipit possimus sed laudantium reiciendis voluptates sequi nemo atque minima accusamus.</li>
+</ol>
+
+<p>Impedit maxime consequuntur tenetur quidem vel quisquam adipisci sed quod odio magni minus magnam perspiciatis hic. Architecto dignissimos labore iusto quod excepturi ipsum sunt aliquid recusandae molestiae expedita quia voluptates ut animi quasi temporibus hic quisquam voluptatem eum sapiente beatae voluptatum odio similique omnis eius nostrum accusamus consectetur possimus cum cupiditate perspiciatis voluptate deserunt quaerat esse sint itaque distinctio ratione culpa magnam tempora reprehenderit neque officiis quo fugiat laudantium magni harum. Illum rerum nemo harum animi assumenda vero eveniet velit cupiditate placeat minus beatae natus illo accusantium ipsum rem voluptatibus consectetur eum id officiis labore temporibus voluptates in laboriosam explicabo ipsa incidunt dolorum amet excepturi quod dicta similique laborum modi non veritatis reprehenderit tenetur corporis eius. Itaque recusandae provident voluptas est repellendus dignissimos voluptatem pariatur molestias error eligendi ea nostrum accusantium doloribus beatae aspernatur quia a nobis temporibus accusamus exercitationem atque facilis incidunt sapiente officiis deserunt perferendis ratione iste sequi reiciendis asperiores velit iusto cumque quasi obcaecati corporis impedit quo mollitia ipsum culpa fugiat. Asperiores voluptates saepe illum veniam maiores reiciendis nihil.</p>
+<div class="row">
+    <div class="span8">
+        <table class="table table-striped table-bordered action-items">
+            <thead>
+            <tr>
+                <th rowspan="2">#</th>
+                <th rowspan="2">Owner(s)</th>
+                <th rowspan="2">Milestone Actions</th>
+                <th colspan="4">Timeframe (months)</th>
+            </tr>
+            <tr class="due-within">
+                <th>1</th>
+                <th>3</th>
+                <th>6</th>
+                <th>12</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="action-id">2.1</td>
+                <td class="owner">Agencies</td>
+                <td class="action">Engage with customers to identify at least two existing major customer-facing services that contain high-value data or content as first-move candidates to make compliant with new open data, content, and web API policy.</td>
+                <td class="due-1">
+                </td><td class="due-3 checked">•</td>
+                <td class="due-6">
+                </td><td class="due-12">
+            </td></tr>
+            <tr>
+                <td class="action-id">2.2</td>
+                <td class="owner">Agencies</td>
+                <td>Make high-value data and content in at least two existing major customer-facing systems available through web APIs, apply metadata tagging and publish a plan to transition additional high-value systems. <span>Within 6 months of release of open data policy – see <a href="#milestone-1-1">milestone 1.1</a></span>.</td>
+                <td class="due-1">
+                </td><td class="due-3">
+            </td><td class="due-6">
+            </td><td class="due-12 checked">•</td>
+            </tr>
+            <tr>
+                <td class="action-id">2.3</td>
+                <td class="owner">GSA</td>
+                <td class="action">Expand Data.gov to include a web API catalog that centrally aggregates web APIs posted on agencies’/developer pages.</td>
+                <td class="due-1">
+                </td><td class="due-3">
+            </td><td class="due-6">
+            </td><td class="due-12 checked">•</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+<h3 id="section-1-article-3">III. Article</h3>
+
+<div class="well left">
+    <h3>Lorem ipsum dolor sit amet, consectetur.</h3>
+    <br>
+    <p>Sint repellat eveniet officia quis at est excepturi ipsam fugit ratione optio accusamus sapiente esse illo quo aperiam corporis vero. Quaerat omnis nostrum quasi voluptas. Animi dolorum reprehenderit earum aliquid iusto qui maxime quae nam omnis eveniet magnam aut amet fugit quo laboriosam suscipit sequi assumenda perferendis aliquam dignissimos enim recusandae nulla fuga? Nisi eaque sit libero quasi molestias eveniet distinctio illo cupiditate optio voluptatem ducimus praesentium debitis laborum commodi nam doloremque.</p>
+</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam minima explicabo unde ipsam deserunt illo provident error facilis perferendis dicta sed ab laborum labore dolorum odio atque eligendi temporibus. Omnis laudantium ratione numquam facilis cum dicta ipsum accusantium eligendi aspernatur rerum quod ullam ipsam repudiandae incidunt dignissimos pariatur aliquid! Quaerat molestias praesentium dolorum doloribus deleniti dolorem iure. Voluptates illum recusandae non ratione cupiditate earum a necessitatibus hic molestiae dicta aut quis labore dolor nostrum incidunt sapiente tenetur aliquam reprehenderit veniam commodi ea explicabo deserunt ad. Tempore dicta accusantium libero asperiores aperiam fuga voluptas atque sit consequatur cum. Porro unde a aliquam itaque quae quidem corporis debitis doloribus explicabo labore culpa quod tempore deleniti ratione id doloremque magnam beatae totam cumque animi nulla rem aliquid voluptates voluptatem laudantium consectetur ducimus laborum nam ipsa natus et quibusdam sint praesentium eveniet quisquam sunt!</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam sint labore iste accusamus maxime expedita nobis qui neque autem rerum totam facilis! Voluptate illum blanditiis qui in velit adipisci iste commodi natus sequi quidem neque assumenda consectetur sed. Dolores officia magnam delectus earum pariatur enim hic dicta veniam soluta consequuntur dignissimos molestias porro harum assumenda nobis nisi illum quisquam modi.</p>
+
+<p>Placeat earum inventore qui aut pariatur delectus quos natus quas aperiam temporibus alias excepturi saepe ipsam harum nulla reiciendis soluta tenetur corporis minus rerum molestiae voluptate expedita eum maiores architecto sed assumenda. Ullam dolore a accusantium sed est expedita nemo nam excepturi nobis inventore officiis fugit ex aliquam deleniti modi suscipit reprehenderit error quod quaerat quidem iste amet cupiditate. Doloribus asperiores similique recusandae illo soluta iusto corrupti eius esse error quam. Tenetur voluptatem doloremque magni dolorum harum excepturi veniam similique minima possimus dolore at eos mollitia placeat! Itaque necessitatibus natus pariatur magni earum nemo tenetur consequatur rerum aut culpa est veniam consectetur vero voluptates libero! Quidem dolores pariatur. Iste aut ea totam aperiam earum hic ducimus distinctio odio quisquam maiores expedita iure nemo velit quasi ratione delectus voluptas harum sunt tempora autem.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio eum dicta labore.</p>
+
+<ul>
+    <li>
+        <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Architecto tempora soluta deserunt sit hic.</p>
+    </li>
+
+    <li>
+        <p><strong>Eos molestiae explicabo numquam ipsa incidunt cum</strong> sed consequuntur animi voluptatibus quidem veniam veritatis architecto unde neque temporibus placeat harum eius ducimus.</p>
+    </li>
+
+    <li>
+        <p><strong>Natus dolor officia quaerat consequuntur cumque autem atque repudiandae et.</strong> Deserunt accusantium repellat laborum tempora molestiae necessitatibus odit quas officiis saepe amet consequatur laudantium maxime corporis! Quia enim consequuntur architecto neque porro quidem cum possimus quis tempore ut fuga nisi ipsam molestias.</p>
+    </li>
+</ul>
+
+<h2 id="section-2">Sub Section 2</h2>
+
+<p>Voluptatem quas architecto corrupti dolores nam qui sint in natus pariatur deleniti quae minima et velit rerum ex cupiditate iste suscipit numquam tempora reprehenderit itaque quidem ab maiores ipsum quasi quis vel officia eius maxime possimus. Quasi aut illum facere eveniet tenetur nesciunt dolor illo provident eaque sapiente quia sint cumque dignissimos dolorum praesentium itaque unde nisi earum ipsam perspiciatis quidem ducimus quo voluptas eligendi nobis voluptates impedit excepturi amet sit! Explicabo laborum voluptate odio nulla fugit ipsa ad eum sit excepturi nesciunt quisquam blanditiis! Modi atque aliquid reprehenderit tempore animi eligendi qui sunt dolor id numquam vel adipisci veritatis quam vero voluptates earum sint obcaecati quaerat mollitia laboriosam nihil. Pariatur voluptates consequatur praesentium fugit dolor enim sequi aliquam repellendus dolorum saepe blanditiis esse doloribus! Commodi officia repellat nisi possimus sit ab maxime impedit incidunt libero alias soluta nihil assumenda ipsam quis perferendis quam tenetur minima id rem fugiat reiciendis recusandae praesentium.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus cum itaque voluptatem iste incidunt hic commodi atque architecto! Impedit molestiae.</p>
+
+<p>Repudiandae saepe sapiente accusantium tenetur soluta cupiditate numquam at deserunt dicta vel libero sed? Magnam fuga sunt quia ipsa fugit id? Obcaecati ducimus in pariatur labore facere corporis sunt quisquam maxime assumenda deleniti vitae repudiandae facilis temporibus suscipit consequatur fugiat recusandae veniam nihil ea iste quos inventore dignissimos soluta dolor ipsum nulla repellendus incidunt alias tempora amet! Expedita quae inventore beatae cupiditate suscipit amet vel vero commodi velit eos ea itaque explicabo nemo consequatur voluptatum sed odit unde nostrum iure omnis. Corrupti accusamus a corporis quidem voluptatibus quae quos magni minima eos facilis necessitatibus autem voluptatem sapiente neque officia soluta ipsa! Pariatur aliquid laboriosam minima totam. Est vel laboriosam magnam iure voluptate nesciunt doloribus ab facere illo maxime delectus amet officiis architecto animi ratione. Iure quae ad corporis quasi voluptates aspernatur aliquam ipsam minima tenetur magnam nulla iste consequuntur placeat reiciendis qui nostrum adipisci expedita saepe consequatur ipsum id laudantium voluptas suscipit aliquid nisi nihil aut odio velit molestias cupiditate. Vitae sint nostrum veniam nisi quos odio reiciendis tempora fuga dolorem provident cumque porro incidunt tempore asperiores ullam. Necessitatibus odio error dolorum.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos consequatur quia suscipit recusandae eum voluptatem explicabo sapiente! Recusandae ad quasi quos eaque quaerat unde dicta quas voluptates in illum. Quia ad non laborum fugiat consequuntur aspernatur tenetur itaque qui rerum saepe dolor iusto cum velit nulla quasi impedit est laudantium natus enim corporis perferendis ex ut eius expedita esse hic.</p>
+
+<p>Neque recusandae repellat deleniti blanditiis eius architecto odit esse tempora mollitia velit. Inventore aliquid officiis quisquam soluta quis repellendus esse fuga molestiae facilis beatae. Sint voluptates tempora nemo autem hic? Blanditiis libero facere error hic nobis recusandae nihil ea est doloribus iure autem reprehenderit facilis voluptatibus ullam numquam sed sit ipsa earum deleniti rem corporis exercitationem modi aperiam veniam esse placeat mollitia laboriosam natus incidunt quisquam! Fugiat necessitatibus minima corporis ex soluta eligendi suscipit? Modi quo quam dolorum esse maxime molestias facilis ab suscipit saepe qui quidem deserunt voluptatibus ad. Ipsam exercitationem voluptates rerum distinctio debitis mollitia vero ad deleniti et officia. Magni officia cumque quas laborum totam perspiciatis cum facilis architecto.</p>
+
+<h2 id="section-3">Sub Section 3</h2>
+
+<div class="row">
+    <div class="span8">
+        <table class="table table-striped table-bordered action-items">
+            <thead>
+            <tr>
+                <th rowspan="2">#</th>
+                <th rowspan="2">Owner(s)</th>
+                <th rowspan="2">Milestone Actions</th>
+                <th colspan="4">Timeframe (months)</th>
+            </tr>
+            <tr class="due-within">
+                <th>1</th>
+                <th>3</th>
+                <th>6</th>
+                <th>12</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="section">
+                <td colspan="7"><h3>Part A: Information Centric</h3></td>
+            </tr>
+            <tr class="sub-section">
+                <td colspan="7"><h4>1. Make Open Data, Content, and Web APIs the New Default</h4></td>
+            </tr>
+            <tr>
+                <td class="action-id">1.1</td>
+                <td class="owner">OMB</td>
+                <td class="action">Issue government-wide open data, content, and web API policy and identify standards and best practices for improved interoperability.</td>
+                <td class="due-1">
+                </td><td class="due-3">
+            </td><td class="due-6 checked">•</td>
+                <td class="due-12">
+                </td></tr>
+            <tr>
+                <td class="action-id">1.2</td>
+                <td class="owner">Agencies</td>
+                <td class="action">Ensure all new IT systems follow the open data, content, and web API policy and operationalize agency.gov/developer pages.<em><span>Within 6 months of release of open data policy – see<a href="milestone-1-1">milestone 1.1</a></span></em></td>
+                <td class="due-1">
+                </td><td class="due-3">
+            </td><td class="due-6">
+            </td><td class="due-12 checked">•</td>
+            </tr>
+            <tr class="sub-section">
+                <td colspan="7"><h4>2. Make Existing High-Value Data and Content Available through Web APIs</h4></td>
+            </tr>
+            <tr>
+                <td class="action-id">2.1</td>
+                <td class="owner">Agencies</td>
+                <td class="action">Engage with customers to identify at least two existing major customer-facing services that contain high-value data or content as first-move candidates to make compliant with new open data, content, and web API policy.</td>
+                <td class="due-1">
+                </td><td class="due-3 checked">•</td>
+                <td class="due-6">
+                </td><td class="due-12">
+            </td></tr>
+            <tr>
+                <td class="action-id">2.2</td>
+                <td class="owner">Agencies</td>
+                <td>Make high-value data and content in at least two existing major customer-facing systems available through web APIs, apply metadata tagging and publish a plan to transition additional high-value systems.<em><span>Within 6 months of release of open data policy – see<a href="#milestone-1-1">milestone 1.1</a></span></em>.</td>
+                <td class="due-1">
+                </td><td class="due-3">
+            </td><td class="due-6">
+            </td><td class="due-12 checked">•</td>
+            </tr>
+            <tr>
+                <td class="action-id">2.3</td>
+                <td class="owner">GSA</td>
+                <td class="action">Expand Data.gov to include a web API catalog that centrally aggregates web APIs posted on agencies’/developer pages.</td>
+                <td class="due-1">
+                </td><td class="due-3">
+            </td><td class="due-6">
+            </td><td class="due-12 checked">•</td>
+            </tr>
+            <tr class="section">
+                <td colspan="7"><h3>Part B: Shared Platform</h3></td>
+            </tr>
+            <tr class="sub-section">
+                <td colspan="7"><h4>3. Establish a Digital Services Innovation Center and Advisory Group</h4></td>
+            </tr>
+            <tr>
+                <td class="action-id">3.1</td>
+                <td class="owner">GSA</td>
+                <td class="action">Establish a Digital Services Innovation Center to improve the government’s delivery of digital services.</td>
+                <td class="due-1 checked">•</td>
+                <td class="due-3">
+                </td><td class="due-6">
+            </td><td class="due-12">
+            </td></tr>
+            <tr>
+                <td class="action-id">3.2</td>
+                <td class="owner">OMB</td>
+                <td class="action">Convene a Digital Services Advisory Group to provide input on priorities for the Innovation Center activities and recommend government-wide best practices, guidance, and standards.</td>
+                <td class="due-1 checked">•</td>
+                <td class="due-3">
+                </td><td class="due-6">
+            </td><td class="due-12">
+            </td></tr>
+            <tr>
+                <td class="action-id">3.3</td>
+                <td class="owner">Advisory Group / Federal CIO Council</td>
+                <td class="action">Release government-wide bring-your-own-device (BYOD) guidance based on lessons learned from successful pilots at federal agencies.</td>
+                <td class="due-1">
+                </td><td class="due-3 checked">•</td>
+                <td class="due-6">
+                </td><td class="due-12">
+            </td></tr>
+            <tr>
+                <td class="action-id">3.4</td>
+                <td class="owner">Innovation Center</td>
+                <td class="action">Identify shared and open content management system solutions.</td>
+                <td class="due-1">
+                </td><td class="due-3">
+            </td><td class="due-6 checked">•</td>
+                <td class="due-12">
+                </td></tr>
+            <tr>
+                <td class="action-id">3.5</td>
+                <td class="owner">Innovation Center</td>
+                <td class="action">Provide support to help agencies develop web APIs.</td>
+                <td class="due-1">
+                </td><td class="due-3">
+            </td><td class="due-6 checked">•</td>
+                <td class="due-12">
+                </td></tr>
+            <tr>
+                <td class="action-id">3.6</td>
+                <td class="owner">Innovation Center / Federal CIO Council</td>
+                <td class="action">Launch a shared mobile app development program.</td>
+                <td class="due-1">
+                </td><td class="due-3">
+            </td><td class="due-6">
+            </td><td class="due-12 checked">•</td>
+            </tr>
+            <tr class="sub-section">
+                <td colspan="7"><h4>4. Establish Intra-Agency Governance to Improve Delivery of Digital Services</h4></td>
+            </tr>
+            <tr>
+                <td class="action-id">4.1</td>
+                <td class="owner">Advisory Group</td>
+                <td class="action">Recommend guidelines on agency-wide governance structure for developing and delivering digital services and managing data.</td>
+                <td class="due-1 checked">•</td>
+                <td class="due-3">
+                </td><td class="due-6">
+            </td><td class="due-12">
+            </td></tr>
+            <tr>
+                <td class="action-id">4.2</td>
+                <td class="owner">Agencies</td>
+                <td class="action">Establish an agency-wide governance structure for developing and delivering digital services.<em><span>Within 3 months of release of governance guidance – see<a href="#milestone-4-1">milestone 4.1</a></span></em>.</td>
+                <td class="due-1 checked">•</td>
+                <td class="due-3">
+                </td><td class="due-6">
+            </td><td class="due-12">
+            </td></tr>
+            </tbody>
+        </table>
+    </div>
+</div><div class="footnotes"><hr><ol><li id="fn:1">
+    <p>Source 1</p>
+    <a href="#fnref:1" rev="footnote">↩</a></li><li id="fn:2">
+    <p>Source 2</p>
+    <a href="#fnref:2" rev="footnote">↩</a></li><li id="fn:3">
+    <p>Source 3</p>
+    <a href="#fnref:3" rev="footnote">↩</a></li><li id="fn:4">
+    <p>Source 4</p>
+    <a href="#fnref:4" rev="footnote">↩</a></li><li id="fn:5">
+    <p>Source 5</p>
+    <a href="#fnref:5" rev="footnote">↩</a></li></ol></div>
+
+</div>	</div></div>
+
+</body>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+
+<script src="assets/js/main.js"></script>
+
+<script>
+    var _gaq=[['_setAccount','UA-12099831-1'],['_trackPageview'],["_gat._anonymizeIp"],["_setDomainName",".whitehouse.gov"]];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+<!-- Hey! If you're reading this, come work with us! Message @StevenVDC and mention this message. -->
+
+</body>
+</html>
